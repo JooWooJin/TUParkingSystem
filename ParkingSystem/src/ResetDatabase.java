@@ -11,8 +11,8 @@ public class ResetDatabase extends JFrame {
 
 	public ResetDatabase()
 	{
-		String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-		String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
+		String JDBC_DRIVER = "org.mariadb.jdbc.Driver";  
+		String DB_URL = "jdbc:mariadb://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 		String USERNAME = "root";
 		String PASSWORD = "root";
