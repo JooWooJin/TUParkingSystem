@@ -30,7 +30,7 @@ public class ParkingAdminPasswordChange extends JFrame implements ActionListener
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 	JButton b = new JButton();//비밀번호\n변경
 	JLabel state = new JLabel("비밀번호 변경창입니다");
 	JLabel nowp = new JLabel("현재 비밀번호");

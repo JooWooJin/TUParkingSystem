@@ -35,7 +35,7 @@ public class ParkingAuto extends JFrame implements ActionListener,MouseListener 
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 
 
 	int x,y;
