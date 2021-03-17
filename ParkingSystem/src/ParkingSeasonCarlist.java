@@ -19,7 +19,7 @@ public class ParkingSeasonCarlist extends JFrame {
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 	
 	String col[] =  {"정기권만료시간","차량번호"};
 	String data[][] = new String[0][2];

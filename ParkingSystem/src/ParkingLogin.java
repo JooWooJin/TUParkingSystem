@@ -29,7 +29,7 @@ public class ParkingLogin extends JFrame implements ActionListener {
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 	JPanel cp = new JPanel(new GridLayout(4,1));
 	JPanel p1 = new JPanel(new FlowLayout());
 	JPanel p2 = new JPanel(new FlowLayout());

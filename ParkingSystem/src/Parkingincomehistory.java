@@ -36,7 +36,7 @@ public class Parkingincomehistory extends JFrame implements ActionListener,Mouse
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 
 	String code;
 	String col[] =  {"시간","행동","수입"};

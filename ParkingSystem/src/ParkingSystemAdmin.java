@@ -47,7 +47,7 @@ public class ParkingSystemAdmin extends JFrame implements Runnable,ActionListene
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 
 	Calendar cal = Calendar.getInstance();
 	String col[] =  {"시간","행동","층수","위치","수입","해당 차량 번호"};

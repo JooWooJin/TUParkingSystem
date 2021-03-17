@@ -29,7 +29,7 @@ public class Parkingpay extends JFrame implements ActionListener {
 	String DB_URL = "jdbc:mysql://localhost:3306/parkingsystem?serverTimezone=Asia/Seoul";
 
 	String USERNAME = "root";
-	String PASSWORD = "ehdgus12";
+	String PASSWORD = "root";
 	JPanel p0 = new JPanel(new FlowLayout());
 	JPanel cp = new JPanel(new GridLayout(5,1));
 	JPanel p1 = new JPanel(new GridLayout(1,2));
